@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b0f19c;
+    margin: 0;
+    padding: 20px;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+div input,
+div select {
+    
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #0a0a0a;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+div input[type="number"] {
+    width: calc(20% - 50px);
+    display: inline-block;
+    margin-right: 5px;
+}
+
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #347ba3;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}

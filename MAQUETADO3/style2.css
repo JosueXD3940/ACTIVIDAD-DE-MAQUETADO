@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #070707;
+    color: #f1efef;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #0000cc;
+    margin: 0 10px;
+}
+
+.header .right {
+    margin-left: auto;
+}
+
+.logo {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    width: 70%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    background-color: #f8f8f8;
+    border: 1px solid #dcdcdc;
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 40px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #0000cc;
+    margin: 0 10px;
+    font-size: 14px;
+}
